@@ -2,8 +2,8 @@
 
 import json
 
-build_info = {'ami_id':'ami-123456'}
-with open('build_info.json', 'w') as outfile:
+build_info = {'imageId':'ami-bc223sdfd'}
+with open('createdami.json', 'w') as outfile:
     json.dump(build_info, outfile)
 
 
