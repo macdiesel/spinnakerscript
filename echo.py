@@ -1,4 +1,10 @@
 #!/usr/bin/env python
 
-print "hello!"
+import json
+
+build_info = {'ami_id':'ami-123456'}
+with open('build_info.json', 'w') as outfile:
+    json.dump(build_info, outfile)
+
+
 
